@@ -47,6 +47,9 @@ public class Matriz {
 //    Matriz m = new Matriz(result);
 //    return m;
 //}
+    
+    /*Multiplica o objeto Matriz por outra Matriz b*/
+    
     public Matriz multiplicaMatriz(Matriz b) throws InterruptedException {
         if (this.getMatriz()[0].length != b.getMatriz().length) {
             throw new RuntimeException("Dimensões inconsistentes. Impossível multiplicar as matrizes");
